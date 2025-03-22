@@ -3,7 +3,7 @@
 ## 📖  Overview
 This is a full-stack web application built with the MERN (MongoDB, Express, React, Node.js) stack. It provides an online platform for parents to register their children for kindergarten classes, make appointments, and leave feedback.
 
-## 🛠 Features
+## ✨ Features
 - **User Authentication** (Register/Login)
 - **Appointment Booking** (Only for logged-in users)
 - **Teacher Popularity Ranking** (Based on student registrations)

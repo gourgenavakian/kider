@@ -1,16 +1,16 @@
-# MERN Stack Kindergarten Management App
+# 📌 MERN Stack Kindergarten Management App
 
-## Overview
+## 📖  Overview
 This is a full-stack web application built with the MERN (MongoDB, Express, React, Node.js) stack. It provides an online platform for parents to register their children for kindergarten classes, make appointments, and leave feedback.
 
-## Features
+## 🛠 Features
 - **User Authentication** (Register/Login)
 - **Appointment Booking** (Only for logged-in users)
 - **Teacher Popularity Ranking** (Based on student registrations)
 - **Feedback System** (Users can leave comments)
 - **MongoDB Database** (Stores all user and appointment data)
 
-## Technologies Used
+## 🛠  Technologies Used
 - **Frontend:** React.js (Redux)
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB
@@ -18,7 +18,7 @@ This is a full-stack web application built with the MERN (MongoDB, Express, Reac
 - **Authentication:** JWT (JSON Web Tokens)
 - **State Management:** Redux-Saga
 
-## Project Structure
+## 📂 Project Structure
 ```
 📦 project-root  
  ├── 📂 front (React Frontend)  
@@ -41,23 +41,39 @@ This is a full-stack web application built with the MERN (MongoDB, Express, Reac
  ├── README.md  
 ```
 
-## Installation & Setup
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/your-repo.git
-   cd your-repo
-   ```
+### 1️⃣ Clone the Repository
+```bash
+git clone git@github.com:gourgenavakian/kider.git
+cd kider.git
+```
 
-2. Install dependencies:
-   ```sh
-   cd front && npm install
-   cd ../server && npm install
-   ```
+### 2️⃣ Run with Docker
+```bash
+docker-compose up --build
+```
 
-3. Run the application:
-    - Start the frontend: `cd front && npm start`
-    - Start the backend: `cd server && npm run dev`
+### 3️⃣ Run Manually
+#### Install Dependencies
+```bash
+cd front && npm install  # Frontend
+cd ../server && npm install  # Backend
+```
 
-## License
+#### Start Backend
+```bash
+cd server
+npm start
+```
+
+#### Start Frontend
+```bash
+cd front
+npm start
+```
+
+## 👨‍💻 Author
+**Gourgen Avakian** - [GitHub](https://github.com/gourgenavakian) | [LinkedIn](https://www.linkedin.com/in/gourgen-avakian/)
+
+## 📄  License
 This project is licensed under the MIT License.
 
